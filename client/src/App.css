@@ -1,0 +1,33 @@
+.App {
+  margin: auto;
+  width: 866px;
+}
+
+#root {
+  padding-top: 8%;
+}
+
+.coinTableContainer {
+  margin: auto;
+  min-width: 807px;
+  width: 52%;
+}
+
+.coinTableContainer th:hover {
+  cursor: default !important;
+}
+
+.coinTableContainer .tableHeader:hover{
+  cursor: pointer !important;
+  text-decoration: underline;
+}
+
+th {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
